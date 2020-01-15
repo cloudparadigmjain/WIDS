@@ -43,8 +43,8 @@ while True:
 
 			# Your Account Sid and Auth Token from twilio.com/console
 			# DANGER! This is insecure. See http://twil.io/secure
-			account_sid = 'ACd6ba5ebf3f1e2b055379782e1a5bd812'
-			auth_token = '67da0928759cc5cae83016f63d35a7bb'
+			account_sid = '<Your Account_SID>'
+			auth_token = '<Your Auth Token>'
 			client = Client(account_sid, auth_token)
 
 			numbers_to_message = ['+919826159719','+918989438840','+919901914554']
