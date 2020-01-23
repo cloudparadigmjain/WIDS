@@ -41,17 +41,16 @@ while True:
 			from twilio.rest import Client
 
 
-			# Your Account Sid and Auth Token from twilio.com/console
-			# DANGER! This is insecure. See http://twil.io/secure
+			
 			account_sid = '<Your Account_SID>'
 			auth_token = '<Your Auth Token>'
 			client = Client(account_sid, auth_token)
 
-			numbers_to_message = ['+919826159719','+918989438840','+919901914554']
+			numbers_to_message = ['{Insert}','{Insert}','{Insert}']
 			for number in numbers_to_message:
     				client.messages.create(
         				body = message +str(avg)+str('dbm'),
-        				from_ = '+15702250256',
+        				from_ = '{Insert}',
         				to = number
     				)
 
