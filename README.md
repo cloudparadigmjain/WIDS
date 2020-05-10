@@ -1,4 +1,4 @@
-# WIDS - Wireless Intrusion Detection System
+# WIDS - Wireless Intrusion Detection System By Jatin Mehrotra (jatinjmehrotra@gmail.com) & Hrishikesh D Kakkad(hrishidkakkad@gmail.com)
 
 ## **Requirements:**
 * A Network Adaptor with _prefrably_ Packet Injection Capabilities - Tenda or Alpha
